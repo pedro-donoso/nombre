@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JS práctico</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <div class="main container">
+            <h2 class="text">
+                Escríbenos !!!
+            </h2>
+            <div class="resultado">
+            </div>
+            <form id="formulario" class="main__form">
+                <div>
+                    <div class="main__form">
+                        <label class="main__label">
+                            Nombre completo
+                        </label>
+                        <input id="nombre" type="text">
+                        <p class="errorNombre"></p>
+                    </div>
+                    <div class="main__form">
+                        <label>
+                            Asunto
+                        </label>
+                        <input id="asunto" type="text">
+                        <p class="errorAsunto"></p>
+                    </div>
+                </div>
+                <div class="main__form">
+                    <label>
+                        Mensaje
+                    </label>
+                    <textarea id="mensaje"></textarea>
+                    <p class="errorMensaje"></p>
+                </div>
+                <div class="main__btn">
+                    <button id="botton" class="btn btn-success" type="submit">
+                       Mandar mensaje
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
